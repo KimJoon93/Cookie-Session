@@ -60,6 +60,11 @@
 		</div>
 	</div>
 	
+	<%
+	String id = request.getParameter("email");
+	String pw = request.getParameter("pass");
+	
+	%>
 
 	
 <!--===============================================================================================-->
@@ -80,6 +85,8 @@
 	<script src="js/main.js"></script>
 
 <script type="text/javascript">
+
+
 </script>
 
 </body>

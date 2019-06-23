@@ -16,7 +16,8 @@ When we start studying login in web programming, first we face to Cookie & Sessi
 - Check it works!
 ![cookie4](https://user-images.githubusercontent.com/32008149/59961881-3789a780-9519-11e9-979d-18cc161315aa.PNG)
 
-- 
+- Make loginSuccess page. We only going to check how does cookie remain in the web. So first, I tried to send informations to loginsuccess page. Method should be POST but, I used GET to check if it works. And print out imformations to check it works.
+
 
 
 ## Session
