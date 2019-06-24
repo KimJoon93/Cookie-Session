@@ -64,6 +64,16 @@
 	String id = request.getParameter("email");
 	String pw = request.getParameter("pass");
 	
+	if(id.equals("jk1094")&&pw.equals("1234")){
+		Cookie cookie = new Cookie("id",id);
+		cookie.setMaxAge(100);
+		response.addCookie(cookie);
+		response.sendRedirect("loginSuccess.jsp");
+		
+	}else{
+		response.sendRedirect("login.jsp");
+	}
+	
 	%>
 
 	
